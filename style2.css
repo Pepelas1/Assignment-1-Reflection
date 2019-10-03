@@ -1,0 +1,27 @@
+html, html * {
+    box-sizing: border-box;
+    
+}
+
+
+p {
+    background-color:#F0F8FF;
+    min-height: 100vh;
+    display: block; 
+    border: 5px, gold; 
+    margin: 20px; 
+}
+
+header {
+    background-color: blanchedalmond;
+    display: block;
+    border: 10px, gold; 
+    margin: 20px;
+}
+
+ul {
+    background-color: bisque;
+    display: block; 
+    border: 10px, black;
+    margin: 20px;
+}
