@@ -1,0 +1,48 @@
+html, html * {
+    box-sizing: border-box;
+    
+}
+
+
+main {
+    background-color:#F0F8FF;
+    min-height: 100vh;
+    display: grid;
+    grid-template-areas: "header header header"
+                         "main main main"
+                         "sources sources sources";
+    grid-template-columns: 1fr 4fr 1fr;
+    grid-template-rows: 1fr 4fr 1fr; 
+    grid-row-gap: 10px;
+
+}
+
+
+header {
+    background-color: blanchedalmond;
+    grid-area: header; 
+    display: flex; 
+    flex-direction: column;
+    justify-content: start; 
+    align-items: center; 
+
+}
+
+section.main {
+    background-color: #F0F8FF; 
+    grid-area: main;
+    display: flex; 
+    flex-direction: column;
+    flex-wrap: wrap; 
+}
+
+section.sources {
+    background-color: bisque; 
+    grid-area: sources;
+    display: flex;
+    flex-direction: row; 
+    flex-wrap: wrap; 
+    align-items: center; 
+    border: 5px, black;
+
+}
